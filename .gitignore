@@ -1,32 +1,23 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
+__pycache__/
+*.py[cod]
+*$py.class
+# C extensions
 *.so
-*.dylib
-*.dll
 
-# Fortran module files
-*.mod
-*.smod
+# jupyter notebook 
+.ipynb_checkpoints
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# env
+.env
+.venv
+venv/
+ENV/
 
-# Executables
-*.exe
-*.out
-*.app
+# vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
