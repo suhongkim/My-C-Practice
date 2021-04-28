@@ -4,3 +4,8 @@ My note for C++ Practice
 ```
 conda env create -f environment.yml
 ```
+## How to change the theme of jupyter notebook 
+```
+jt -l 
+jt -t gruvboxd
+```
