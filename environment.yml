@@ -12,16 +12,18 @@ dependencies:
   - binutils_impl_linux-64=2.35.1=h193b22a_2
   - binutils_linux-64=2.35=h67ddf6f_30
   - bleach=3.3.0=pyhd3eb1b0_0
-  - ca-certificates=2021.4.13=h06a4308_1
-  - certifi=2020.12.5=py39h06a4308_0
+  - ca-certificates=2020.12.5=ha878542_0
+  - certifi=2020.12.5=py39hf3d152e_1
   - cffi=1.14.5=py39h261ae71_0
   - clang_variant=1.0=cling_v0.8
   - clangdev=5.0.0=h43905f9_1012
   - cling=0.8=hf817b99_0
   - cppzmq=4.7.1=hf7cf922_2
+  - cycler=0.10.0=py_2
   - decorator=5.0.6=pyhd3eb1b0_0
   - defusedxml=0.7.1=pyhd3eb1b0_0
   - entrypoints=0.3=py39h06a4308_0
+  - freetype=2.10.4=h0708190_1
   - gcc_impl_linux-64=9.3.0=h70c0ae5_19
   - gcc_linux-64=9.3.0=hf25ea35_30
   - gxx_impl_linux-64=9.3.0=hd87eabc_19
@@ -33,21 +35,37 @@ dependencies:
   - ipython_genutils=0.2.0=pyhd3eb1b0_1
   - jedi=0.17.2=py39h06a4308_1
   - jinja2=2.11.3=pyhd3eb1b0_0
+  - jpeg=9d=h36c2ea0_0
   - jsonschema=3.2.0=py_2
   - jupyter_client=6.1.12=pyhd3eb1b0_0
   - jupyter_core=4.7.1=py39h06a4308_0
   - jupyterlab_pygments=0.1.2=py_0
+  - jupyterthemes=0.20.0=py_1
   - kernel-headers_linux-64=2.6.32=h77966d4_13
+  - kiwisolver=1.3.1=py39h1a9c180_1
+  - lcms2=2.12=hddcbb42_0
   - ld_impl_linux-64=2.35.1=hea4e1c9_2
+  - lesscpy=0.13.0=py_1
+  - libblas=3.9.0=8_openblas
+  - libcblas=3.9.0=8_openblas
   - libffi=3.3=he6710b0_2
   - libgcc-devel_linux-64=9.3.0=h7864c58_19
   - libgcc-ng=9.3.0=h2828fa1_19
+  - libgfortran-ng=9.3.0=hff62375_19
+  - libgfortran5=9.3.0=hff62375_19
   - libgomp=9.3.0=h2828fa1_19
+  - liblapack=3.9.0=8_openblas
+  - libopenblas=0.3.12=pthreads_h4812303_1
+  - libpng=1.6.37=h21135ba_2
   - libsodium=1.0.18=h36c2ea0_1
   - libstdcxx-devel_linux-64=9.3.0=hb016644_19
   - libstdcxx-ng=9.3.0=h6de172a_19
+  - libtiff=4.2.0=hdc55705_1
   - libuuid=2.32.1=h7f98852_1000
+  - libwebp-base=1.2.0=h7f98852_2
+  - lz4-c=1.9.3=h9c3ff4c_0
   - markupsafe=1.1.1=py39h27cfd23_0
+  - matplotlib-base=3.4.1=py39h2fa2bec_0
   - mistune=0.8.4=py39h27cfd23_1000
   - nbclient=0.5.3=pyhd3eb1b0_0
   - nbconvert=6.0.7=py39h06a4308_0
@@ -56,14 +74,19 @@ dependencies:
   - nest-asyncio=1.5.1=pyhd3eb1b0_0
   - nlohmann_json=3.9.1=h9c3ff4c_1
   - notebook=6.3.0=py39h06a4308_0
-  - openssl=1.1.1k=h27cfd23_0
+  - numpy=1.20.2=py39hdbf815f_0
+  - olefile=0.46=pyh9f0ad1d_1
+  - openjpeg=2.4.0=hf7af979_0
+  - openssl=1.1.1k=h7f98852_0
   - packaging=20.9=pyhd3eb1b0_0
   - pandoc=2.12=h06a4308_0
   - pandocfilters=1.4.3=py39h06a4308_1
   - parso=0.7.0=py_0
   - pexpect=4.8.0=pyhd3eb1b0_3
   - pickleshare=0.7.5=pyhd3eb1b0_1003
+  - pillow=8.1.2=py39hf95b381_1
   - pip=21.0.1=py39h06a4308_0
+  - ply=3.11=py_1
   - prometheus_client=0.10.1=pyhd3eb1b0_0
   - prompt-toolkit=3.0.17=pyh06a4308_0
   - ptyprocess=0.7.0=pyhd3eb1b0_2
@@ -74,6 +97,7 @@ dependencies:
   - pyrsistent=0.17.3=py39h27cfd23_0
   - python=3.9.4=hdb3f193_0
   - python-dateutil=2.8.1=pyhd3eb1b0_0
+  - python_abi=3.9=1_cp39
   - pyzmq=20.0.0=py39h2531618_1
   - readline=8.1=h27cfd23_0
   - send2trash=1.5.0=pyhd3eb1b0_1
@@ -97,4 +121,5 @@ dependencies:
   - zeromq=4.3.4=h9c3ff4c_0
   - zipp=3.4.1=pyhd3eb1b0_0
   - zlib=1.2.11=h516909a_1010
+  - zstd=1.4.9=ha95c52a_0
 prefix: /home/suhongk/anaconda3/envs/jupyter-cpp
